@@ -1,101 +1,185 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&family=Numans&display=swap" rel="stylesheet">
     <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/68a2f3517a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--informacion general  -->
-    <h1>Información General</h1>
-    <img src="img/Foto de perfil .jpg" width="150px">
-    <ul>
-        <li>Nombre: Rafael Alberto Reales Carrillo</li>
-        <li>Email: rafitha19960607@gmail.com</li>
-        <li>Teléfono: +57 3044515132</li>
-        <li>Ubicación actual: Ciudad de Bogota, Colombia</li>
-        <li> <a href="https://github.com/Garritha">Github</a></li>
-        <li> <a href="https://www.linkedin.com/in/rafael-reales-b3a973243/">linkend</a>
-        </li>
-    </ul>
-    <!-- experiencia laboral -->
-    <h2>Experiencia</h2>
-    <ul>
-        <li>Sifap Tecnologia</li>
-        <li>Auxiliar de planta</li>
-        <li>Trabajo en equipo, colaboracion, manejo de herramientas neumaticas y mecanicas </li>
-    </ul>
-    <h3>Experiencia</h3>
-    <ul>
-        <li>Mercado libre </li>
-        <li>Desarrollador Full Stark Junior</li>
-        <li>Trabajo cooperativo en desarrollo de proyectos y actulizaciones </li>
+    <section>
+        <div id="izq">
+            <img src="./img/Foto de perfil .jpg" id="foto">
 
-    </ul>
+            <div id="uno">    
+                <h3>CONTACTO</h3>
+                <div class="uno-1">
+                    <a href="https://github.com/Garritha" ><i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/rafael-reales-b3a973243/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                </div>
+                
+                <a href="mailto:rafitha19960607@gmail.com"><i class="fa-regular fa-envelope"> - rafitha19960607@gmail.com</i></a>
+                <a href="https://api.whatsapp.com/send?phone=3044515132"><i class="fa-brands fa-whatsapp"> - 3044515132</i></a>
+                <a href=""><i class="fa-solid fa-location-dot"> - Bogota D.C</i></a>
+            </div>
 
-    <!-- habilidades tecnicas -->
-    <h2>Habilidades Técnicas</h2>
-    <table>
-        <tr>
-            <th>Habilidad</th>
-            <th>Nivel</th>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>Avanzado</td>
-        </tr>
-        <tr>
-            <td>CSS</td>
-            <td>Intermedio</td>
-        </tr>
-        <tr>
-            <td>Javascript</td>
-            <td>Básico</td>
-        </tr>
-    </table>
-    <!-- intereses  -->
-    <h2>Intereses</h2>
-    <table>
-        <tr>
-            <th>Interés</th>
-            <th>Nivel de interés</th>
-        </tr>
-        <tr>
-            <td>Aplicaciones móviles</td>
-            <td>Alto</td>
-        </tr>
-        <tr>
-            <td>React</td>
-            <td>alto</td>
-        </tr>
-        <tr>
-            <td>Node Js</td>
-            <td>Alto</td>
-        </tr>
-        <tr>
-            <td>Javascript</td>
-            <td>alto</td>
-        </tr>
-        <tr>
-            <td>Sql</td>
-            <td>alto</td>
-        </tr>
-    </table>
-    <!-- area de mensaje  -->
-    <form>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje"></textarea><br>
-        <input type="submit" value="Contactar">
-    </form>
-
+            <div class="dos">
+                <h3>Skills</h3>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>Observacion</span>
+                    </div>
+                    <div class="menu">
+                        <div id="or-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>Trabajo en equipo</span>
+                    </div>
+                    <div class="menu">
+                        <div id="te-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>Toma de decisiones</span>
+                    </div>
+                    <div class="menu">
+                        <div id="a-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>Estratégico</span>
+                    </div>
+                    <div class="menu">
+                        <div id="e-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>Pensamiento Autocritico</span>
+                    </div>
+                    <div class="menu">
+                        <div id="pc-mu"></div>
+                    </div>  
+                </div>
+            </div>
+    
+            <div class="dos">
+                <h3>Lenguajes</h3>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>HTML</span>
+                    </div>
+                    <div class="menu">
+                        <div id="html-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>CSS</span>
+                    </div>
+                    <div class="menu">
+                        <div id="css-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="menu">
+                        <div id="js-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>INGLES</span>
+                    </div>
+                    <div class="menu">
+                        <div id="in-mu"></div>
+                    </div>  
+                </div>
+                <div class="skills">
+                    <div class="detalle">
+                        <span>React.js</span>
+                    </div>
+                    <div class="menu">
+                        <div id="Re-mu"></div>
+                    </div>
+                    <div class="skills">
+                        <div class="detalle">
+                            <span>Node.js</span>
+                        </div>
+                        <div class="menu">
+                            <div id="No-mu"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="der">
+            <h2>RAFAEL ALBERTO</h2>
+            <h3>REALES CARRILLO</h3>
+            <p>Desarrolla WEB</p>
+            <p>Decidi cambiar mi rumbo en mi vida y cambiar y mejorar muchos aspectos de mi vida, siempre me a gustado la tecnologia y la programacion y me gusta hacerlo y soy bueno. "cuando haces lo que te gusta nunca tendras que trabajar"</p>
+            <h4>INFORMACIÓN PERSONAL</h4>
+            <p>Me caracterizo por ser dedicado, innovador y auto crítico. Aprendo rápido y cumplo mis labores con la mayor efectividad, honestidad y responsabilidad en las distintas funciones que me son asignadas. Soy una persona  orientada al logro,  se me facilita el trabajo en equipo. Me presento con gran entusiasmo a su empresa para formar parte del cumplimiento de metas planteadas en su misión.</p>
+            <h4>EDUCACIÓN</h4>
+            <div class="edu">
+                <p>Mar 2023 - Actualmente</p>
+                <div id="pro">
+                    <h5>Desarrollo Web full stark</h5>
+                    <h5>PROtalento</h5>
+                </div>
+            </div>
+            <div class="edu">
+                <p>Oct 2022 - Actualmente</p>
+                <div id="af">
+                    <h5>Desarrollador Front-end</h5>
+                    <h5>Aluralatam</h5>
+                </div>
+            </div>
+            
+            <div class="edu">
+                <p>Ene 2009 - Dic 2014</p>
+                <div id="col">
+                    <h5>IET Upar</h5>
+                </div>
+            </div>
+            <h4>EXPERIENCIA LABORAL</h4>
+            <div id="experiencia">
+                <div id="exp-v">
+                    <p>Jun 2022 - Actualmente</p>
+                    <h6>Aux. Planta <br>Sifap tecnologia</h6>
+                    <ul>
+                        <li>Manejo de Herramientas mecanicas </li> 
+                        <li>Manejo de Herramientas electricas</li>  
+                        <li>Trabajo en equipo</li> 
+                        <li>Interpretacion de planos </li> 
+                        <li>Trabajo cooperativo</li> 
+                        
+                    </ul>
+                </div>
+                <div>
+                    <p>Feb 2023 - Actualmente</p>
+                    <h6>Proyecto -  alura Greck <br>Alura latam</h6>
+                    <ul>
+                        <li>Conocimeinto de figma</li>
+                        <li>HTML5 </li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>REACT.JS</li>
+                        <li>NODE.JS</li>   
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 </body>
 </html>
-
-   
